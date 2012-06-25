@@ -1,0 +1,22 @@
+<h1>Products on Sale</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Image</th>
+    <th>Price</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @products.each do |product| %>
+  <tr>
+    <td><%= product.title %></td>
+    <td><%= product.description %></td>
+    <td><%= image_tag(product.image_url, :atl => "Image", :class=> "round")%></td>
+    <td><%= product.price %></td>
+    
+<% end %>
+</table>
+<br />

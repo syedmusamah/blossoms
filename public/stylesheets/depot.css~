@@ -1,0 +1,9 @@
+li{display:inline;}
+#header{background-color: orange;}
+#footer{background-color: orange;}
+#tableH { text-align:center;}
+body{background-color: black; color: white;}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}

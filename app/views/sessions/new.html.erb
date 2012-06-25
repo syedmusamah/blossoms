@@ -1,0 +1,19 @@
+<h1>Please enter your email and password</h1>
+<div id ="error_message">
+<%= flash[:notice] || flash.now[:error] %>
+</div>
+
+<%= form_for(:session, :url => sessions_path) do |f| %>
+
+
+
+ <%= f.label :email %><br />
+ <%= f.text_field :email %>
+
+ 
+ <%= f.label :password %><br />
+ <%= f.password_field :password %>
+
+ <%= f.submit "Submit" %>
+
+<% end %>

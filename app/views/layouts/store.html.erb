@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blossoms</title>
+   <%= stylesheet_link_tag '/stylesheets/store.css', :media => :screen %>
+  <%= stylesheet_link_tag 'scaffold', :media => :screen %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+
+<body>
+
+<div id="main">
+	<div id="content">
+ <%= yield %>
+	</div>
+</div>
+<div class="links">
+	<div id="AboutUs"> 
+	<%= link_to 'Home', :controller => 'store', :action => 'index' %>	
+	</div>
+
+	<div id="Products">
+	</div>	
+	
+	<div id="CustomOrder">
+	</div>
+
+	<div id="ContactUs">
+		
+	</div>
+	
+ </body>
+
+
+</html>
+
+

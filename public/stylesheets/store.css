@@ -1,0 +1,63 @@
+#main 
+{	background-image:url('../images/template.jpg');
+	height:1000px;width:1000px
+}
+
+body
+{	
+	height:1000px;
+	width:1000px
+}
+
+#content
+{
+	position:absolute;
+	margin-top:120px;
+	margin-left:290px;
+	width:520px;
+	height: 400px;
+	overflow:auto;
+}
+
+#AboutUs 
+{ 
+		position: absolute; 
+		top: 210px; 
+		left: 150px; 
+		width: 130px; 
+		height: 35px; 
+		background-color: transparent; 
+		cursor: pointer;
+}	
+
+#Products 
+{ 
+		position: absolute; 
+		top: 300px; 
+		left: 150px; 
+		width: 130px; 
+		height: 35px; 
+		background-color: transparent; 
+		cursor: pointer;
+}	
+
+#CustomOrder
+{ 
+		position: absolute; 
+		top: 360px; 
+		left: 150px; 
+		width: 130px; 
+		height: 55px; 
+		background-color: transparent; 
+		cursor: pointer;
+}	
+#ContactUs 
+{ 
+		position: absolute; 
+		top: 430px; 
+		left: 150px; 
+		width: 130px; 
+		height: 55px; 
+		background-color: transparent; 
+		cursor: pointer;
+}	
